@@ -1,0 +1,21 @@
+This is a maven project whose dependencies is managed by maven.The configuration of dependencies is written
+in the pom.xml including the junit, selenium and some other build tools.
+
+The testing script is put in the 'test' fold and the 'main' fold is created for the project code.
+
+Before running the project, please Enable the IntelliJ IDEA tools automated import the jar and check if the
+maven has download the jar package for you.
+
+AppTesting is the automated testing script in:
+src->
+   test->
+       java->
+           seleniumdemo->
+                       AppTest.java
+
+This driver in this project just supports the MacOs platform.
+
+The 'running result.png' image is the running screenshot.
+
+
+
